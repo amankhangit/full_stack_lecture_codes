@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>User Submission Forms</h1>
+    <form>
+    <label>Name
+        <input type="text" placeholder="Enter your name" required>
+    </label>
+    <br><br>
+    <label>Email
+        <input type="email" placeholder="Enter your email" required>
+    </label>
+    <br><br>
+    <label>Number
+        <input maxlength="10" type="number" placeholder="Enter a 10 digit number" required>
+    </label>
+    <br><br>
+    <label>Age
+        <input min="1" max="110" type="number" placeholder="Enter age" required>
+    </label>
+    <br><br>
+    <label>Date
+        <input min="2024-08-03" max="2024-08-10" type="date">
+    </label>
+    <br><br>
+    <label>Time
+        <input type="time">
+    </label>
+    <br><br>
+    <p>Hobbies</p>
+    <label>Reading
+        <input name="Hobbies" type="checkbox">
+    </label>
+    <label>Writing
+        <input name="Hobbies" type="checkbox">
+    </label>
+    <label>Coding
+        <input name="Hobbies" type="checkbox">
+    </label>
+    <br><br>
+    <p>Gender</p>
+    <label>Male
+        <input type="radio" name="Gender" required>
+    </label>
+    <label>Female
+        <input type="radio" name="Gender">
+    </label>
+    <label>Other
+        <input type="radio" name="Gender">
+    </label>
+    <br><br>
+    <label>Select your city
+        <select>
+            <option>Select your city</option>
+            <option>Bangalore</option>
+            <option>Chennai</option>
+            <option>Mumbai</option>
+            <option>Pune</option>
+            <option>Jaipur</option>
+        </select>
+    </label>
+    <br><br>
+    <label>Upload file
+        <input type="file" required>
+    </label>
+    <br><br>
+    <button type="submit">Submit yout form</button>
+    </form>
+</body>
+</html>

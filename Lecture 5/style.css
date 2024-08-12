@@ -1,0 +1,46 @@
+body{
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background-color: #212121;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 180px;
+    height: 20px;
+    background: #5fc092;
+    box-shadow: 10px 10px 15px #16401a, -5px -5px 15px #2f452d;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    /* flex-shrink: 2;
+    flex-grow: 2; */
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: beige;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width: 700px) {
+    body{
+        background-color: rgb(36, 101, 74);
+    }
+}
+
